@@ -1,0 +1,18 @@
+name: EuphoricAFK
+version: '1.0'
+main: ru.gubin.euphoricafk.EuphoricAFK
+api-version: '1.16'
+author: Gubin
+description: AFK System
+commands:
+  euphoricafk:
+    description: Команды для плагина EuphoricAFK
+    usage: /euphoricafk <reload|version|author>
+    aliases: [eafk]
+permissions:
+  euphoricafk.reload:
+    description: Позволяет перезагружать плагин EuphoricAFK
+    default: op
+  euphoricafk.bypass:
+    description: Позволяет игроку избежать кика за AFK
+    default: op
